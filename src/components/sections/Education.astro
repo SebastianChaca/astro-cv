@@ -1,0 +1,74 @@
+---
+import Section from "@/components/section.astro"
+import { education } from "@cv"
+import Badge from "../Badge.astro"
+---
+
+<Section title="Educación">
+    <ul>
+      {
+        education.map(
+          ({ institution, startDate, endDate, area, courses }) => {
+            const startYear = new Date(startDate).getFullYear()
+            const endYear =
+              endDate != null ? new Date(endDate).getFullYear() : "Actual"
+            const years = `${startYear} - ${endYear}`
+  
+            return (
+              <li>
+                <article>
+                  <header>
+                    <div>
+                      <h3>{institution}</h3>
+                    </div>
+  
+                    <time>{years}</time>
+                  </header>
+  
+                  <footer>
+                    <p>{area}</p>
+                  </footer>
+                  <div class="courses-container">
+                    {
+                      courses.map(course =>{
+                          return <Badge text={course}/>
+                      })
+                    }
+                  </div>
+                </article>
+              </li>
+            )
+          }
+        )
+      }
+    </ul>
+  </Section>
+  
+  <style>
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+  
+    article h3 {
+      font-weight: 500;
+      color: #111;
+    }
+  
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 4px;
+    }
+  
+    time {
+      color: #555;
+      font-size: 0.85rem;
+    }
+     .courses-container{
+        display: flex;
+        margin-top: 8px;
+    }
+  </style>
