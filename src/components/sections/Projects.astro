@@ -1,22 +1,33 @@
 ---
 import Section from "@/components/section.astro"
+import GitHub from "@/icons/GitHub.astro"
+import ExternalLink from "@/icons/ExternalLink.astro"
 import { projects } from "@cv"
+import Flex from "../Flex.astro"
 ---
 
 <Section title="Proyectos">
     <ul>
       {
-        projects.map(({ url, description, highlights, name, isActive }) => {
+        projects.map(({ url, description, highlights, name, isActive,githubUrl }) => {
           return (
             <li>
               <article>
                 <header>
-                  <h3>
-                    <a href={url} title={`Ver el proyecto ${name}`}>
-                      {name}
-                    </a>
-                    {isActive && <span>•</span>}
-                  </h3>
+                  <Flex justifyContent="space-between">
+                    <h3>                  
+                      {name}               
+                      {isActive && <span>•</span>}                   
+                     </h3>
+                    <Flex>                      
+                      <a href={url} target="_blank">
+                        <ExternalLink/>
+                      </a>
+                      <a href={githubUrl} target="_blank">
+                        <GitHub/>  
+                      </a>                    
+                    </Flex>
+                  </Flex>                
                   <p>{description}</p>
                 </header>
                 <footer>
@@ -60,6 +71,7 @@ import { projects } from "@cv"
   
     article a {
       color: #111;
+      margin-left: 6px;
     }
   
     article a:hover {
