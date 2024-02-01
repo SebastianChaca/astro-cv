@@ -4,7 +4,7 @@ import Badge from "../Badge.astro"
 import EsCv from '@cv'
 import EnCv from '@enCv'
 const url=Astro.url
-const isEnglish=url.pathname ==='/en'
+const isEnglish=url.pathname ==='/en' || url.pathname ==='/en/'
 const getCv= isEnglish ? EnCv : EsCv
 const {education}= getCv
 ---

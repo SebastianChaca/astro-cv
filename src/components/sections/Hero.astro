@@ -10,7 +10,8 @@ import WorldMap from '@/icons/WorldMap.astro'
 import X from '@/icons/X.astro'
 import type { SocialIcon } from '@/types'
 const url=Astro.url
-const getCv= url.pathname ==='/en' ? EnCv : EsCv
+const isEnglish=url.pathname ==='/en' || url.pathname ==='/en/'
+const getCv= isEnglish ? EnCv : EsCv
 const {basics}= getCv
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region } = location

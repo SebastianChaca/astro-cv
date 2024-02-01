@@ -4,14 +4,13 @@ import Badge from "@/components/Badge.astro"
 import EsCv from '@cv'
 import EnCv from '@enCv'
 const url=Astro.url
-
 const isEnglish=url.pathname ==='/en' || url.pathname ==='/en/'
 const getCv= isEnglish ? EnCv : EsCv
 const {work}= getCv
 ---
 
 <Section title={isEnglish ? "Work Experience":"Experiencia laboral"}>
-  <h1>Ruta: {url.pathname}</h1>
+
   <ul>
     {
       work.map(

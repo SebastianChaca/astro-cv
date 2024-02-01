@@ -3,7 +3,7 @@ import Section from "@/components/section.astro"
 import EsCv from '@cv'
 import EnCv from '../../../cv.en.json'
 const url=Astro.url
-const isEnglish=url.pathname ==='/en'
+const isEnglish=url.pathname ==='/en' || url.pathname ==='/en/'
 const getCv= isEnglish ? EnCv : EsCv
 const {basics}= getCv
 const { summary } = basics
