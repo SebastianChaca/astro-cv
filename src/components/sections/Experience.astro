@@ -1,10 +1,15 @@
 ---
 import Section from "@/components/section.astro"
 import Badge from "@/components/Badge.astro"
-import { work } from "@cv"
+import EsCv from '@cv'
+import EnCv from '@enCv'
+const url=Astro.url
+const isEnglish=url.pathname ==='/en'
+const getCv= isEnglish ? EnCv : EsCv
+const {work}= getCv
 ---
 
-<Section title="Experiencia laboral">
+<Section title={isEnglish ? "Work Experience":"Experiencia laboral"}>
   <ul>
     {
       work.map(

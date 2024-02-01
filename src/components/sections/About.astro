@@ -1,10 +1,15 @@
 ---
 import Section from "@/components/section.astro"
-import {basics} from '@cv'
+import EsCv from '@cv'
+import EnCv from '../../../cv.en.json'
+const url=Astro.url
+const isEnglish=url.pathname ==='/en'
+const getCv= isEnglish ? EnCv : EsCv
+const {basics}= getCv
 const { summary } = basics
 ---
 
-<Section title="About">
+<Section title={isEnglish ? 'About' : 'Sobre mí'}>
     <p>
         {summary}
     </p>

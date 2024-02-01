@@ -5,7 +5,7 @@
       "image": "/me.webp",
       "email": "sebastian.dalinger@gmail.com",
       "phone": "1165027205",     
-      "summary": "Soy Frontend Developer con más de dos años y medio de experiencia en proyectos profesionales, destacándome principalmente en el desarrollo con React.js y, en menor medida, en Flutter. Resido en Buenos Aires, Argentina, y tengo un enfoque proactivo hacia la mejora continua, siempre buscando expandir mis conocimientos a través del trabajo y de mis proyectos personales.",
+      "summary": "I am a Frontend Developer with more than two and a half years of experience in professional projects, excelling primarily in development with React.js and, to a lesser extent, in Flutter. I reside in Buenos Aires, Argentina, and have a proactive approach towards continuous improvement, always seeking to expand my knowledge through work and personal projects.",
       "location": {
         "address": "",
         "postalCode": "1428",
@@ -33,7 +33,7 @@
         "url": "https://www.shipnow.com.ar",
         "startDate": "2021-07-10",
         "endDate": null,
-        "summary": "Shipnow es una empresa enfocada en la gestion de la logística de envíos e integracion con e-commerces. Soy parte del equipo de frontend que se encarga, junto con los equipos de Backend, Ux/Ui y Producto, del mantenimiento y desarrollo de 4 aplicaicones, 2 webapps, un design system publicado en npm y una app mobile desarrollada en flutter. ",
+        "summary": "Shipnow is a company focused on the management of shipping logistics and integration with e-commerce platforms. I am part of the frontend team responsible, along with the Backend, UX/UI, and Product teams, for the maintenance and development of 4 applications, 2 web apps, a design system published on npm, and a mobile app developed in Flutter.",
         "highlights":null,
         "remote":true
       }
@@ -51,8 +51,8 @@
       ]
     }],
     "education": [{
-      "institution": "Curso Python y mysql de la Ciudad de Buenos Aires",
-      "area": "Bases y fundamentos de la programación.",
+      "institution": " Free courses of Python and MySQL given by the City of Buenos Aires",
+      "area": "Fundamentals and Foundations of Programming.",
       "studyType": "Terciario",
       "startDate": "2019-03-01",
       "endDate": "2020-06-01",
@@ -62,7 +62,7 @@
     },
     {
       "institution": "NUCBA",
-      "area": "Bootcamp de programación Javascript Fullstack.",
+      "area": "Fullstack Javascript Bootcamp",
       "studyType": "Terciario",
       "startDate": "2020-08-01",
       "endDate": "2021-12-01",
@@ -72,7 +72,7 @@
     },
     {
       "institution": "Alkemy",
-      "area": "Capacitación para programadores sobre metodologías ágiles y trabajo en equipo.",
+      "area": "Training for programmers on agile methodologies and teamwork.",
       "studyType": "Terciario",
       "startDate": "2020-08-01",
       "endDate": "2021-12-01",
@@ -82,7 +82,7 @@
     },
     {
       "institution": "Udemy",
-      "area": "Siempre trato de seguir capacitandome realizando cursos en udemy sobre diferentes tecnologías.",
+      "area": "I always try to continue my education by taking courses on various technologies on Udemy.",
       "studyType": "Terciario",
       "startDate": "2020-08-01",
       "endDate": null,
@@ -214,7 +214,7 @@
       {
         "name": "Game of life",
         "isActive": true,
-        "description": "Challenge de Shipnow. Desarrollo del algoritmo del juego de la vida, creado por John Conway",
+        "description": "Shipnow Challenge: Development of the Game of Life algorithm, created by John Conway.",
         "highlights": [
           "Juego",
           "React"
@@ -253,7 +253,7 @@
       {
         "name": "Mi primer página web",
         "isActive": true,
-        "description": "Este fue mi primer proyecto web que hice en NUCBA cuando empecé a estudiar programación. No es lindo, pero me gusta tenerlo presente para recordar todo lo que avancé estos años :)",
+        "description": "This was my first web project that I created at NUCBA when I started studying programming. It may not be beautiful, but I like to keep it as a reminder of how much I've progressed over these years. :)",
         "highlights": [
           "Html",
           "Css",
@@ -264,13 +264,13 @@
         "githubUrl":"https://github.com/SebastianChaca/wsp-cra/tree/master/backend"
       },
       {
-        "name": "Mi cv",
+        "name": "My cv",
         "isActive": true,
-        "description": "Código fuente de este CV",
+        "description": "Source code of this page",
         "highlights": [
          "Astro"      
         ],
-        "url": "https://sebachaca.vercel.app",
+        "url": "https://sebastianchaca-cv.vercel.app",
         "githubUrl":"https://github.com/SebastianChaca/wsp-cra/tree/master/backend"
       }
     
