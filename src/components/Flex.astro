@@ -1,16 +1,17 @@
 ---
-const {justifyContent}= Astro.props
+const {justifyContent, alignItems}= Astro.props
+console.log(alignItems)
 ---
 
 <div>
    <slot/>
 </div>
 
-<style define:vars={{justifyContent}}>
+<style define:vars={{justifyContent, alignItems}}>
  div{
    display:flex;
    justify-content: var(--justifyContent);
-   align-items: center;
+   align-items: var(--alignItems); 
    
  }
 </style>
