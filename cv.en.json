@@ -216,7 +216,7 @@
         "isActive": true,
         "description": "Shipnow Challenge: Development of the Game of Life algorithm, created by John Conway.",
         "highlights": [
-          "Juego",
+          "Game",
           "React"
         ],
         "url": "https://game-of-life-brown.vercel.app",
@@ -224,31 +224,31 @@
       },
       {
         "name": "Whats app web clone",
-        "isActive": false,
+        "isActive": true,
         "description": "Clone de la aplicación Whats app web",
         "highlights": [
           "React Js",
-          "Typescrypt",
+          "Typescript",
           "Redux Toolkit",
           "Chakra Ui",
           "Socket Io Client"          
         ],
-        "url": null,
-        "githubUrl":"https://github.com/SebastianChaca/wsp-cra/tree/master/frontend"
+        "url": "https://wsp-web-app-production.up.railway.app/session/signup",
+        "githubUrl":"https://github.com/SebastianChaca/wsp-web-app"
       },
       {
         "name": "Whats app web clone API",
-        "isActive": false,
+        "isActive": true,
         "description": "API creda en Nest Js para la aplicación Whats app web",
         "highlights": [
           "Nest Js",
           "Socket Io",
           "Mongo DB",
           "Docker",
-          "Typescrypt"         
+          "Typescript"         
         ],
         "url": null,
-        "githubUrl":"https://github.com/SebastianChaca/wsp-cra/tree/master/backend"
+        "githubUrl":"https://github.com/SebastianChaca/wsp-web-api"
       },
       {
         "name": "My first web page",
@@ -257,8 +257,8 @@
         "highlights": [
           "Html",
           "Css",
-          "Pasión",
-          "Ganas de crecer"       
+          "Passion",
+          "Desire for personal growth"       
         ],
         "url": "https://sebachaca.vercel.app",
         "githubUrl":"https://github.com/SebastianChaca/wsp-cra/tree/master/backend"

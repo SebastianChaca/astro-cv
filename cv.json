@@ -228,7 +228,7 @@
         "description": "Clone de la aplicación Whats app web",
         "highlights": [
           "React Js",
-          "Typescrypt",
+          "Typescript",
           "Redux Toolkit",
           "Chakra Ui",
           "Socket Io Client"          
@@ -245,7 +245,7 @@
           "Socket Io",
           "Mongo DB",
           "Docker",
-          "Typescrypt"         
+          "Typescript"         
         ],
         "url": null,
         "githubUrl":"https://github.com/SebastianChaca/wsp-web-api"
@@ -261,7 +261,7 @@
           "Ganas de crecer"       
         ],
         "url": "https://sebachaca.vercel.app",
-        "githubUrl":"https://github.com/SebastianChaca/wsp-cra/tree/master/backend"
+        "githubUrl":"https://github.com/SebastianChaca/sebachaca-nucba-tp-1"
       },
       {
         "name": "Mi cv",
@@ -270,7 +270,7 @@
         "highlights": [
          "Astro"      
         ],
-        "url": "https://sebachaca.vercel.app",
+        "url": "https://sebastianchaca-cv.vercel.app",
         "githubUrl":"https://github.com/SebastianChaca/wsp-cra/tree/master/backend"
       }
     
