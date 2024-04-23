@@ -2,8 +2,9 @@
     "basics": {
       "name": "Sebastian Chaca",
       "label": "Front-end developer",
-      "image": "/me.webp",
+      "image": "/me.jpg",
       "email": "sebastian.dalinger@gmail.com",
+      "webpage":"Online cv: https://sebastianchaca-cv.vercel.app",
       "phone": "1165027205",     
       "summary": "Soy Frontend Developer con más de dos años y medio de experiencia en proyectos profesionales, destacándome principalmente en el desarrollo con React.js y, en menor medida, en Flutter. Resido en Buenos Aires, Argentina, y tengo un enfoque proactivo hacia la mejora continua, siempre buscando expandir mis conocimientos a través del trabajo y de mis proyectos personales.",
       "location": {

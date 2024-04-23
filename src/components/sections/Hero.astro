@@ -13,8 +13,10 @@ const url=Astro.url
 const isEnglish=url.pathname ==='/en' || url.pathname ==='/en/'
 const getCv= isEnglish ? EnCv : EsCv
 const {basics}= getCv
-const { name, label, image, location, profiles, phone, email } = basics
+const { name, label, image, location, profiles, phone, email, webpage } = basics
 const { city, region } = location
+
+
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub,
@@ -22,9 +24,11 @@ const SOCIAL_ICONS: SocialIcon = {
   X 
 }
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
+const githubInfo=profiles.find(({ network }) => network === "GitHub")
+const githubUrl=githubInfo?.url
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [webpage, email, phone, linkedUrl, githubUrl].filter(Boolean).join(" • ")
 
 ---
 
@@ -39,6 +43,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       </span>
       <footer class="print">
         {printInfo}
+
       </footer>
    
       <footer class="no-print">
