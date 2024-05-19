@@ -1,29 +1,28 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Hero from '@/components/sections/Hero.astro';
-import About from '@/components/sections/About.astro';
-import Experience from '@/components/sections/Experience.astro';
-import Education from '@/components/sections/Education.astro';
-import Projects from '@/components/sections/Projects.astro';
-
+import Layout from "../layouts/Layout.astro";
+import Hero from "@/components/sections/Hero.astro";
+import About from "@/components/sections/About.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Education from "@/components/sections/Education.astro";
+import Projects from "@/components/sections/Projects.astro";
+import PersonalProject from "@/components/sections/PersonalProject.astro";
 ---
 
 <Layout title="Sebastian Chaca CV">
-	<main>
-		<Hero/>
-		<About/>
-		<Experience/>
-		<Education/>
-		<Projects/>	
-	</main>
+  <main>
+    <Hero />
+    <About />
+    <PersonalProject />
+    <Experience />
+    <Education />
+    <Projects />
+  </main>
 </Layout>
 
 <style is:global>
-	main{
-		padding: 4rem;
-		margin: auto;
-		width: 100%;
-
-	}
-	
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
 </style>

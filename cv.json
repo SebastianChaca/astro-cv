@@ -211,6 +211,15 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
+    "personalProject":
+      {
+        "text":"Chat en tiempo real basado en What's app web, desarrollado con React, Typescript, NestJs, Socket IO y MongoDB",
+        "link":"https://github.com/SebastianChaca/wsp-web-app/blob/master/README.md",
+        "liveLink":"https://wsp-web-app-production.up.railway.app",
+        "repoFront": "https://github.com/SebastianChaca/wsp-web-app",
+        "repoBack":"https://github.com/SebastianChaca/wsp-web-api"
+      }
+    ,
     "projects": [
       {
         "name": "Game of life",
@@ -226,7 +235,7 @@
       {
         "name": "Whats app web clone",
         "isActive": true,
-        "description": "Clone de la aplicación Whats app web",
+        "description": "Clon de la aplicación Whats app web",
         "highlights": [
           "React Js",
           "Typescript",

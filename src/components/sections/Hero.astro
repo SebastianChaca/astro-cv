@@ -1,35 +1,35 @@
 ---
-import EsCv from '@cv'
-import EnCv from '@enCv'
-import Section from '@/components/section.astro'
-import Mail from '@/icons/Mail.astro'
-import Phone from '@/icons/Phone.astro'
-import GitHub from '@/icons/GitHub.astro'
-import LinkedIn from '@/icons/LinkedIn.astro'
-import WorldMap from '@/icons/WorldMap.astro'
-import X from '@/icons/X.astro'
-import type { SocialIcon } from '@/types'
-const url=Astro.url
-const isEnglish=url.pathname ==='/en' || url.pathname ==='/en/'
-const getCv= isEnglish ? EnCv : EsCv
-const {basics}= getCv
-const { name, label, image, location, profiles, phone, email, webpage } = basics
-const { city, region } = location
-
-
+import EsCv from "@cv";
+import EnCv from "@enCv";
+import Section from "@/components/section.astro";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+import GitHub from "@/icons/GitHub.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+import X from "@/icons/X.astro";
+import type { SocialIcon } from "@/types";
+const url = Astro.url;
+const isEnglish = url.pathname === "/en" || url.pathname === "/en/";
+const getCv = isEnglish ? EnCv : EsCv;
+const { basics } = getCv;
+const { name, label, image, location, profiles, phone, email, webpage } =
+  basics;
+const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
-  X 
-}
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
-const githubInfo=profiles.find(({ network }) => network === "GitHub")
-const githubUrl=githubInfo?.url
-const linkedUrl = linkedInfo?.url
+  X,
+};
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const githubInfo = profiles.find(({ network }) => network === "GitHub");
+const githubUrl = githubInfo?.url;
+const linkedUrl = linkedInfo?.url;
 
-const printInfo = [webpage, email, phone, linkedUrl, githubUrl].filter(Boolean).join(" • ")
-
+const printInfo = [webpage, email, phone, linkedUrl, githubUrl]
+  .filter(Boolean)
+  .join(" • ");
 ---
 
 <Section>
@@ -43,9 +43,8 @@ const printInfo = [webpage, email, phone, linkedUrl, githubUrl].filter(Boolean).
       </span>
       <footer class="print">
         {printInfo}
-
       </footer>
-   
+
       <footer class="no-print">
         {
           email && (
@@ -73,7 +72,7 @@ const printInfo = [webpage, email, phone, linkedUrl, githubUrl].filter(Boolean).
         }
         {
           profiles.map(({ network, url }) => {
-            const Icon = SOCIAL_ICONS[network]
+            const Icon = SOCIAL_ICONS[network];
 
             return (
               <a
@@ -84,7 +83,7 @@ const printInfo = [webpage, email, phone, linkedUrl, githubUrl].filter(Boolean).
               >
                 <Icon />
               </a>
-            )
+            );
           })
         }
       </footer>

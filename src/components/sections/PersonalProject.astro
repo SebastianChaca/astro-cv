@@ -8,50 +8,25 @@ import EnCv from "@enCv";
 const url = Astro.url;
 const isEnglish = url.pathname === "/en" || url.pathname === "/en/";
 const getCv = isEnglish ? EnCv : EsCv;
-const { projects } = getCv;
+const { personalProject } = getCv;
 ---
 
-<div class="no-print">
-  <Section title={isEnglish ? "Projects" : "Proyectos"}>
-    <ul>
-      {
-        projects.map(
-          ({ url, description, highlights, name, isActive, githubUrl }) => {
-            return (
-              <li>
-                <article>
-                  <header>
-                    <Flex
-                      justifyContent="space-between"
-                      alignItems="flex-start"
-                    >
-                      <h3>
-                        {name}
-                        {isActive && <span>•</span>}
-                      </h3>
-                      <Flex>
-                        <a href={url} target="_blank">
-                          <ExternalLink />
-                        </a>
-                        <a href={githubUrl} target="_blank">
-                          <GitHub />
-                        </a>
-                      </Flex>
-                    </Flex>
-                    <p>{description}</p>
-                  </header>
-                  <footer>
-                    {highlights.map((highlight) => {
-                      return <span>{highlight}</span>;
-                    })}
-                  </footer>
-                </article>
-              </li>
-            );
-          }
-        )
-      }
-    </ul>
+<div>
+  <Section title={isEnglish ? "Persronal Project" : "Proyecto Personal"}>
+    <p>
+      {personalProject.text}
+    </p>
+
+    <div style="margin: 10px 20px;">
+      <p>- <a href={personalProject.liveLink} target="_blank">Live link</a></p>
+      <p>- <a href={personalProject.link} target="_blank">Featues</a></p>
+      <p>
+        - <a href={personalProject.repoFront} target="_blank">Front-end repo</a>
+      </p>
+      <p>
+        - <a href={personalProject.repoBack} target="_blank">Back-end repo</a>
+      </p>
+    </div>
   </Section>
 </div>
 

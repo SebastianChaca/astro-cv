@@ -211,6 +211,15 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
+    "personalProject":
+    {
+      "text":"Real-time chat webapp inspired in What's app web developed with React, Typescript, NestJs, Socket IO and MongoDB",
+      "link":"https://github.com/SebastianChaca/wsp-web-app/blob/master/README.md",
+      "liveLink":"https://wsp-web-app-production.up.railway.app",
+      "repoFront": "https://github.com/SebastianChaca/wsp-web-app",
+      "repoBack":"https://github.com/SebastianChaca/wsp-web-api"
+    }
+  ,
     "projects": [
       {
         "name": "Game of life",

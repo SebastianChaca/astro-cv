@@ -1,8 +1,8 @@
 ---
-import Section from "@/components/section.astro"
+import Section from "@/components/section.astro";
 
-import { skills } from "@cv"
-import Badge from "../Badge.astro"
+import { skills } from "@cv";
+import Badge from "../Badge.astro";
 ---
 
 <Section title="Habilidades">
@@ -10,7 +10,7 @@ import Badge from "../Badge.astro"
     {
       skills.map(({ name }) => (
         <li>
-          <Badge text={name}/>
+          <Badge text={name} />
         </li>
       ))
     }
