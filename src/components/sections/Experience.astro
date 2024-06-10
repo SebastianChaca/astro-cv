@@ -45,6 +45,13 @@ const { work } = getCv;
                 <footer>
                   <p>{summary}</p>
                   <br />
+                  <p>
+                    <strong>
+                      {isEnglish
+                        ? "Core Responsibilities:"
+                        : "Responsabilidades principales :"}
+                    </strong>{" "}
+                  </p>
                   {description.map((des) => {
                     return <p>- {des}</p>;
                   })}
