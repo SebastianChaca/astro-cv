@@ -9,6 +9,9 @@ import LinkedIn from "@/icons/LinkedIn.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import X from "@/icons/X.astro";
 import type { SocialIcon } from "@/types";
+import SelectFlag from "../SelectFlag.astro";
+import Flex from "../Flex.astro";
+import PrintInfo from "../PrintInfo.astro";
 const url = Astro.url;
 const isEnglish = url.pathname === "/en" || url.pathname === "/en/";
 const getCv = isEnglish ? EnCv : EsCv;
@@ -26,13 +29,10 @@ const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const githubInfo = profiles.find(({ network }) => network === "GitHub");
 const githubUrl = githubInfo?.url;
 const linkedUrl = linkedInfo?.url;
-
-const printInfo = [webpage, email, phone, linkedUrl, githubUrl]
-  .filter(Boolean)
-  .join(" • ");
 ---
 
 <Section>
+  <SelectFlag />
   <div class="container">
     <div class="info">
       <h1>{name}</h1>
@@ -41,9 +41,7 @@ const printInfo = [webpage, email, phone, linkedUrl, githubUrl]
         <WorldMap />
         {city}, {region}
       </span>
-      <footer class="print">
-        {printInfo}
-      </footer>
+      <PrintInfo info={{ ...basics, githubUrl, linkedUrl }} />
 
       <footer class="no-print">
         {
@@ -88,9 +86,10 @@ const printInfo = [webpage, email, phone, linkedUrl, githubUrl]
         }
       </footer>
     </div>
-    <figure>
+
+    <!-- <figure>
       <img src={image} alt={name} />
-    </figure>
+    </figure> -->
   </div>
 </Section>
 <style>

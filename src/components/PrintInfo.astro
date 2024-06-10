@@ -1,0 +1,32 @@
+---
+import Flex from "./Flex.astro";
+
+const { info } = Astro.props;
+const { email, webpage, linkedUrl, githubUrl } = info;
+---
+
+<div class="print">
+  <Flex>
+    <p>Email:</p>
+    {email}
+  </Flex>
+  <Flex>
+    <p>Online Cv:</p>
+
+    <a href={webpage}>
+      {webpage}
+    </a>
+  </Flex>
+  <Flex>
+    <p>Linkedin:</p>
+    <a href={linkedUrl}>
+      {linkedUrl}
+    </a>
+  </Flex>
+  <Flex>
+    <p>Github:</p>
+    <a href={githubUrl}>
+      {githubUrl}
+    </a>
+  </Flex>
+</div>

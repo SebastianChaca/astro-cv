@@ -4,7 +4,7 @@
       "label": "Front-end developer",
       "image": "/me.jpg",
       "email": "sebastian.dalinger@gmail.com",
-      "webpage":"Online cv: https://sebastianchaca-cv.vercel.app",
+      "webpage":"https://sebastianchaca-cv.vercel.app",
       "phone": "1165027205",     
       "summary": "Soy Frontend Developer con más de tres años de experiencia en proyectos profesionales, destacándome principalmente en el desarrollo con React.js y, en menor medida, en Flutter. Resido en Buenos Aires, Argentina, y tengo un enfoque proactivo hacia la mejora continua, siempre buscando expandir mis conocimientos a través del trabajo y de mis proyectos personales.",
       "location": {
@@ -30,13 +30,21 @@
     "work": [
       {
         "name": "Shipnow",
-        "position": "Frontend developer",
+        "position": "Frontend developer Ssr",
         "url": "https://www.shipnow.com.ar",
         "startDate": "2021-07-10",
         "endDate": null,
         "summary": "Shipnow es una empresa enfocada en la gestion de la logística de envíos e integracion con e-commerces. Soy parte del equipo de frontend que se encarga, junto con los equipos de Backend, Ux/Ui y Producto, del mantenimiento y desarrollo de 4 aplicaicones, 2 webapps, un design system publicado en npm y una app mobile desarrollada en flutter. ",
         "highlights":null,
-        "remote":true
+        "remote":true,
+        "description":[
+        "Desarrollar e implementar componentes reutilizables y modulares basados en las especificaciones del equipo de UX.",
+        "Escribir y ejecutar pruebas unitarias para garantizar la funcionalidad y calidad del código.",
+        "Analizar los requerimientos y diseños proporcionados por los equipos de Producto, UI y UX y evaluar la viabilidad técnica de los requerimientos y proporcionar feedback al equipo.",
+        "Desarrollar los requetimientos de manera escalable.",
+        "Mantenimiento de aplicaciones: Actualizar librerías, refactorizar código y optimizar patrones de diseño para mejorar la seguridad, eficiencia y rendimiento de las aplicaciones."
+
+        ]
       }
      
     ],

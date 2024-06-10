@@ -2,7 +2,7 @@
     "basics": {
       "name": "Sebastian Chaca",
       "label": "Front-end developer",
-      "webpage":"Online cv: https://sebastianchaca-cv.vercel.app/en",
+      "webpage":"https://sebastianchaca-cv.vercel.app/en",
       "image": "/me.jpg",
       "email": "sebastian.dalinger@gmail.com",
       "phone": "1165027205",     
@@ -30,13 +30,21 @@
     "work": [
       {
         "name": "Shipnow",
-        "position": "Frontend developer",
+        "position": "Frontend developer Ssr",
         "url": "https://www.shipnow.com.ar",
         "startDate": "2021-07-10",
         "endDate": null,
         "summary": "Shipnow is a company focused on the management of shipping logistics and integration with e-commerce platforms. I am part of the frontend team responsible, along with the Backend, UX/UI, and Product teams, for the maintenance and development of 4 applications, 2 web apps, a design system published on npm, and a mobile app developed in Flutter.",
         "highlights":null,
-        "remote":true
+        "remote":true,
+        "description":[
+          "Develop and implement reusable and modular components based on UX team specifications.",
+          "Write and execute unit tests to ensure code functionality and quality.",
+          "Analyze requirements and designs provided by Product, UI, and UX teams, evaluate their technical feasibility, and provide feedback to the team.",
+          "Develop scalable requirements.",
+          "Applications maintenance: update libraries, refactor code, and optimize design patterns to improve application security, efficiency, and performance"
+  
+          ]
       }
      
     ],

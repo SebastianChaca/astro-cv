@@ -1,8 +1,8 @@
 ---
-const { justifyContent, alignItems } = Astro.props;
+const { justifyContent, alignItems, noPrint } = Astro.props;
 ---
 
-<div>
+<div class={noPrint && "no-print"}>
   <slot />
 </div>
 
