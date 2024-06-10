@@ -40,7 +40,7 @@
         "description":[
         "Desarrollar e implementar componentes reutilizables y modulares basados en las especificaciones del equipo de UX/UI.",
         "Escribir y ejecutar pruebas unitarias para garantizar la funcionalidad y calidad del código.",
-        "Analizar los requerimientos y diseños proporcionados por los equipos de Producto, UI y UX, evaluar la viabilidad técnica de los requerimientos y proporcionar feedback al equipo.",
+        "Analizar los requerimientos y diseños proporcionados por los equipos de Producto y  UI/UX, evaluar la viabilidad técnica de los requerimientos y proporcionar feedback.",
         "Desarrollar los requerimientos de manera escalable.",
         "Mantenimiento de aplicaciones: Actualizar librerías, refactorizar código y optimizar patrones de diseño para mejorar la seguridad, eficiencia y rendimiento de las aplicaciones."
 
