@@ -38,11 +38,14 @@
         "highlights":null,
         "remote":true,
         "description":[
-        "Desarrollar e implementar componentes reutilizables y modulares basados en las especificaciones del equipo de UX/UI.",
-        "Escribir y ejecutar pruebas unitarias para garantizar la funcionalidad y calidad del código.",
-        "Analizar los requerimientos y diseños proporcionados por los equipos de Producto y  UI/UX, evaluar la viabilidad técnica de los requerimientos y proporcionar feedback.",
-        "Desarrollar los requerimientos de manera escalable.",
-        "Mantenimiento de aplicaciones: Actualizar librerías, refactorizar código y optimizar patrones de diseño para mejorar la seguridad, eficiencia y rendimiento de las aplicaciones."
+          "Desarrollar e implementar componentes reutilizables y modulares basados en las especificaciones del equipo de UX/UI e integrarlos en Storybook. Los componentes, en su mayoría, están construidos en base a Material UI de React y una porción más antigua con Sass y ReactJss.",
+          "Escribir y ejecutar pruebas unitarias/e2e con jest/react-testing-library/cypress para garantizar la funcionalidad y calidad del código.",
+          "Analizar los requerimientos y diseños proporcionados por los equipos de Producto y UI/UX, evaluar la viabilidad técnica de los requerimientos y proporcionar feedback.",
+          "Desarrollar los requerimientos de manera escalable, siguiendo las buenas prácticas que utiliza la empresa y siguiendo la documentación que me es proporcionada en Figma, Whimsical, Notion y Jira.",
+          "Mantenimiento de aplicaciones: Las apps tienen bastantes años y, siempre que podemos, me encargo de actualizar librerías, refactorizar código y optimizar patrones de diseño para mejorar la seguridad, eficiencia y rendimiento de las aplicaciones.",
+          "Mantenimiento y desarrollo de la app móvil construida con Flutter que utilizan los conductores de la empresa para realizar entregas o retiro de pedidos.",
+          "Pensamiento crítico y revisión de código: Todos los PRs son sometidos a una evaluación, primero por el equipo de UX y luego por el líder técnico o por mí. En esta evaluación, debatimos y revisamos porciones de código que puedan ser mejoradas o que no cumplan con los diseños proporcionados."
+
 
         ]
       }
@@ -221,7 +224,7 @@
     }],
     "personalProject":
       {
-        "text":"Chat en tiempo real basado en What's app web, desarrollado con React, Typescript, NestJs, Socket IO y MongoDB",
+        "text":"Chat en tiempo real basado en What's app web, desarrollado con React, Typescript, Redux Toolkit,  NestJs, Socket IO y MongoDB",
         "link":"https://github.com/SebastianChaca/wsp-web-app/blob/master/README.md",
         "liveLink":"https://wsp-web-app-production.up.railway.app",
         "repoFront": "https://github.com/SebastianChaca/wsp-web-app",

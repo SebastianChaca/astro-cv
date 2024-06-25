@@ -38,11 +38,13 @@
         "highlights":null,
         "remote":true,
         "description":[
-          "Develop and implement reusable and modular components based on UX/UI team specifications.",
-          "Write and execute unit tests to ensure code functionality and quality.",
-          "Analyze requirements and designs provided by Product and UI/UX teams, evaluate their technical feasibility and provide feedback.",
-          "Develop scalable requirements.",
-          "Applications maintenance: update libraries, refactor code, and optimize design patterns to improve application security, efficiency, and performance"
+          "Develop and implement reusable and modular components based on the specifications of the UX/UI team and integrate them into Storybook. The components are mostly built using React's Material UI and an older portion with Sass and ReactJss.",
+          "Write and execute unit/e2e tests with jest/react-testis-library/cypress to ensure the functionality and quality of the code.",
+          "Analyze the requirements and designs provided by the Product and UI/UX teams, evaluate the technical feasibility of the requirements, and provide feedback.",
+          "Develop the requirements in a scalable manner, following the best practices used by the company and the documentation provided to me in Figma, Whimsical, Notion, and Jira.",
+          "Application maintenance: The apps are quite old, and whenever possible, i am responsible for updating libraries, refactoring code, and optimizing design patterns to improve the security, efficiency, and performance of the applications.",
+          "Maintenance and development of the mobile app built with Flutter, which is used by the company's drivers to make deliveries or pick up orders.",
+          "Critical thinking and code review: All PRs are subject to evaluation, first by the UX team and then by the technical lead or myself. In this evaluation, we discuss and review portions of code that can be improved or that do not meet the provided designs."
   
           ]
       }
@@ -221,7 +223,7 @@
     }],
     "personalProject":
     {
-      "text":"Real-time chat webapp inspired in What's app web developed with React, Typescript, NestJs, Socket IO and MongoDB",
+      "text":"Real-time chat webapp inspired in What's app web developed with React, Typescript, Redux Toolkit, Chakra UI,  NestJs, Socket IO and MongoDB",
       "link":"https://github.com/SebastianChaca/wsp-web-app/blob/master/README.md",
       "liveLink":"https://wsp-web-app-production.up.railway.app",
       "repoFront": "https://github.com/SebastianChaca/wsp-web-app",
