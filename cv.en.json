@@ -7,6 +7,7 @@
       "email": "sebastian.dalinger@gmail.com",
       "phone": "1165027205",     
       "summary": "I am a Frontend Developer with more than three years of experience in professional projects, excelling primarily in development with React.js and, to a lesser extent, in Flutter. I reside in Buenos Aires, Argentina, and have a proactive approach towards continuous improvement, always seeking to expand my knowledge through work and personal projects.",
+      "knowledge":"I have knowledge in React, React Native, TypeScript, Flutter, Dart, state management libraries such as MobX, Redux, or Context API, UI libraries like Material UI, Chakra UI, React JSS, and unit and e2e testing with Cypress, Jest, and Testing Library. I also have some backend knowledge with Express, NestJS, Socket.IO, and MongoDB.",
       "location": {
         "address": "",
         "postalCode": "1428",
