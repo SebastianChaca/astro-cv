@@ -8,7 +8,16 @@ const { email, webpage, linkedUrl, githubUrl } = info;
 <div class="print">
   <Flex>
     <p>Email:</p>
-    {email}
+    <h3>
+      {email}
+    </h3>
+  </Flex>
+  <Flex>
+    <p>Portfolio:</p>
+
+    <a href={"https://sebastianchaca-portfolio.vercel.app/"}>
+      https://sebastianchaca-portfolio.vercel.app/
+    </a>
   </Flex>
   <Flex>
     <p>Online Cv:</p>
@@ -30,3 +39,13 @@ const { email, webpage, linkedUrl, githubUrl } = info;
     </a>
   </Flex>
 </div>
+<style>
+  p,
+  a {
+    font-size: 0.7rem;
+  }
+  h3 {
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+</style>
