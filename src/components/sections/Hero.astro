@@ -37,10 +37,16 @@ const linkedUrl = linkedInfo?.url;
     <div class="info">
       <h1>{name}</h1>
       <h2>{label}</h2>
+
       <span>
         <WorldMap />
         {city}, {region}
       </span>
+      <h3>
+        Portfolio:<a href="https://sebastianchaca-portfolio.vercel.app/">
+          https://sebastianchaca-portfolio.vercel.app/
+        </a>
+      </h3>
       <PrintInfo info={{ ...basics, githubUrl, linkedUrl }} />
 
       <footer class="no-print">
@@ -116,6 +122,12 @@ const linkedUrl = linkedInfo?.url;
     color: #444;
     font-weight: 500;
     font-size: 1.1rem;
+    text-wrap: balance;
+  }
+  h3 {
+    color: #444;
+    font-weight: 500;
+    font-size: 0.8rem;
     text-wrap: balance;
   }
 
