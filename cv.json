@@ -7,7 +7,7 @@
       "webpage":"https://sebastianchaca-cv.vercel.app",
       "phone": "1165027205",     
       "summary": "Soy Frontend Developer con más de tres años de experiencia en proyectos profesionales. Resido en Buenos Aires, Argentina, y tengo un enfoque proactivo hacia la mejora continua, siempre buscando expandir mis conocimientos a través del trabajo y de mis proyectos personales.",
-      "knowledge":"Tengo conocimientos en React, React Native, TypeScript, Flutter, Dart, manejadores de estado como MobX, Redux o Context API, librerías de UI como Material UI, Chakra UI, React JSS y tests unitarios y e2e con Cypress, Jest y Testing Library. También tengo algunos conocimientos de backend con Express, NestJS, Socket.IO y MongoDB.",
+      "knowledge":"Tengo conocimientos en React, React Native, TypeScript, Flutter, Dart, manejadores de estado como MobX, Redux o Context API, librerías de UI como Material UI, Chakra UI, React JSS y tests unitarios y e2e con Cypress, Jest y Testing Library. También tengo algunos conocimientos de backend con Express, NestJS, Socket.IO y MongoDB y estoy estudiando el stack de mi trabajo actual que se basa en Ruby on rails, postgresql y redis.",
       "location": {
         "address": "",
         "postalCode": "1428",
@@ -100,7 +100,7 @@
       "startDate": "2020-08-01",
       "endDate": null,
       "courses": [
-        "Socket.io", "Nest Js", "Flutter", "React", "Astro", "Postgresql", "Typescrypt"
+        "Socket.io", "Nest Js", "Flutter", "React", "Astro", "Postgresql", "Typescrypt","Ruby", "Ruby on rails", "Docker"
       ]
     }
   ],
