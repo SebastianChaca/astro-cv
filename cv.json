@@ -227,7 +227,7 @@
       {
         "text":"Chat en tiempo real basado en What's app web, desarrollado con React, Typescript, Redux Toolkit,  NestJs, Socket IO y MongoDB",
         "link":"https://github.com/SebastianChaca/wsp-web-app/blob/master/README.md",
-        "liveLink":"https://wsp-web-app-production.up.railway.app",
+        "liveLink":"https://wsp-web-app.up.railway.app",
         "repoFront": "https://github.com/SebastianChaca/wsp-web-app",
         "repoBack":"https://github.com/SebastianChaca/wsp-web-api"
       }
