@@ -6,7 +6,7 @@
       "email": "sebastian.dalinger@gmail.com",
       "webpage":"https://sebastianchaca-cv.vercel.app",
       "phone": "1165027205",     
-      "summary": "Soy Frontend Developer con más de cuatro años de experiencia en proyectos profesionales. Resido en Buenos Aires, Argentina, y tengo un enfoque proactivo hacia la mejora continua, siempre buscando expandir mis conocimientos a través del trabajo y de mis proyectos personales.",
+      "summary": "Soy Frontend Developer con más de cuatro años de experiencia en proyectos profesionales. Resido en Buenos Aires, Argentina, y me especializo en el desarrollo de aplicaciones web y mobile.",
       "knowledge":"Tengo conocimientos en React, React Native, TypeScript, Flutter, Dart, manejadores de estado como MobX, Redux o Context API, librerías de UI como Material UI, Chakra UI, React JSS y tests unitarios y e2e con Cypress, Jest y Testing Library. También tengo algunos conocimientos de backend con Express, NestJS, Socket.IO y MongoDB y estoy estudiando el stack de mi trabajo actual que se basa en Ruby on rails, postgresql y redis.",
       "location": {
         "address": "",
@@ -46,6 +46,7 @@
           "Mantenimiento de aplicaciones: Las apps tienen bastantes años y, siempre que podemos, me encargo de actualizar librerías, refactorizar código y optimizar patrones de diseño para mejorar la seguridad, eficiencia y rendimiento de las aplicaciones.",
           "Mantenimiento y desarrollo de la app móvil construida con Flutter que utilizan los conductores de la empresa para realizar entregas o retiro de pedidos.",
           "Pensamiento crítico y revisión de código: Todos los PRs son sometidos a una evaluación, primero por el equipo de UX y luego por el líder técnico o por mí. En esta evaluación, debatimos y revisamos porciones de código que puedan ser mejoradas o que no cumplan con los diseños proporcionados."
+          
 
 
         ]
